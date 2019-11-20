@@ -1,0 +1,27 @@
+/* animation */
+  .fadeOut {
+    animation-name: fadeOut;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;} 
+  } 
+
+  .fadeIn {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+
+
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity: 0.1; margin-top: 15px}
+    100% {opacity: 1; margin-top: 30px} 
+  } 
+
+
